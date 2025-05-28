@@ -1,79 +1,60 @@
- Project Overview
-The UI is built using Bootstrap for a clean and responsive interface.
+###
+I used Bootstrap to design the user interface.
 
-Proper use of documentation ensured a well-structured frontend and backend.
+I followed documentation to create a proper UI and backend.
 
 There are two types of logins: Admin and User.
 
-👤 Admin Features:
-Can add new events.
+The Admin can:
 
-Can register for any event.
+Add new events
 
-Can update existing events.
+Register for events
 
-Can delete any event.
+Update events
 
-🙋‍♂️ User Features:
-Can book/register for events.
+Delete events
 
-Can cancel their registrations.
+The User can:
 
-Can view available events.
+View events
 
-⚙️ Backend Setup
-Navigate to the server directory:
+Book events
 
-bash
-Copy
-Edit
-cd server
-Install server-side dependencies:
+Cancel event bookings
 
-bash
-Copy
-Edit
-npm install
-Configure environment variables:
-Create a .env file inside the server folder and add the following:
 
-env
-Copy
-Edit
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-Run the backend server:
+### Backend Setup
 
-Development mode (with auto-reload):
+1. Navigate to the server directory:
+   ---> cd server
 
-bash
-Copy
-Edit
-npm run dev
-Production mode:
+2. Install dependencies:
+   ---> npm install
 
-bash
-Copy
-Edit
-npm start
-💻 Frontend (Client) Setup
-Navigate to the client directory:
+3. Create a `.env` file in the server directory with the following variables:
+   ```
+   PORT=5000
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   ```
 
-bash
-Copy
-Edit
-cd client
-Install client-side dependencies:
+   ### Server
+   `cd server` - Go inside the folder server
+   `npm run dev` - Start the development server
 
-bash
-Copy
-Edit
-npm install
-Start the frontend development server:
+### Server
+- `npm run dev` - Start the development server with nodemon
+- `npm start` - Start the production server
 
-bash
-Copy
-Edit
-npm run dev
-Agar tu chahe to main ek README.md file bhi ready kar deta hoon is content ke saath. Bata de agar chahiye.
+
+### Backend Setup
+1. Navigate to the server directory:
+   ---> cd client
+
+2. Install dependencies:
+   ---> npm install
+
+ ### client
+   `cd client` - Go inside the folder client
+   `npm run dev` - Start the development server
